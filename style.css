@@ -26,7 +26,7 @@ body {
 
 /* SITE TITLE */
 .site-title {
-  font-size: 62px;
+  font-size: 80px;
   font-weight: bold;
   color: #eaeaea;
   margin-bottom: 15px;
@@ -43,16 +43,11 @@ body {
   text-align: left;
 }
 
-/* HEADER: underline permanente */
 .top-header a {
   color: #ccc;
   margin-right: 20px;
-  text-decoration: underline; /* agora sempre underline */
+  text-decoration: underline; /* underline permanente */
   font-size: 14px;
-}
-.top-header a:hover {
-  color: #fff;
-  border-bottom: 1px solid #ccc; /* underline ao passar */
 }
 
 /* GRID */
@@ -73,10 +68,10 @@ body {
   background-color: #0f1218;
   padding: 25px;
   border-radius: 0; /* quinas retas */
-  border: 2px solid rgba(255,255,255,0.6);
+  border: 2px solid #fff; /* contorno branco */
+  transition: 0.3s;
 }
 
-/* HOVER */
 .box:hover {
   transform: translateY(-4px);
   border-color: #fff;
@@ -97,7 +92,7 @@ body {
   border: 2px solid #fff;
 }
 
-/* CORES VIBRANTES NOS TÍTULOS */
+/* CORES VIBRANTES */
 .name { background-color: #ec4899; }      /* rosa vibrante */
 .education { background-color: #9333ea; } /* roxo vibrante */
 .about { background-color: #2563eb; }     /* azul vibrante */
