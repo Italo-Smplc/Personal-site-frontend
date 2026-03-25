@@ -1,3 +1,4 @@
+/* Fonte elegante (fallback garantido) */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 * {
@@ -8,14 +9,14 @@
 
 /* FUNDO */
 body {
-  background: #0b0f1a; /* preto com leve azul */
-  color: #eaeaea;
-  font-family: 'Playfair Display', serif;
+  background-color: #0c111b; /* preto com leve azul */
+  color: #e6e6e6;
+  font-family: 'Playfair Display', Georgia, serif;
 }
 
 /* NAVBAR */
 header {
-  background: #0f1422;
+  background-color: #111827;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid rgba(255,255,255,0.15);
@@ -35,41 +36,43 @@ nav a:hover {
 
 /* CONTAINER */
 .container {
-  padding: 50px 20px;
+  padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
-/* GRID */
+/* GRID SUPERIOR */
 .grid-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 25px;
+  gap: 20px;
 }
 
+/* GRID INFERIOR */
 .grid-bottom {
-  margin-top: 25px;
+  margin-top: 20px;
   display: grid;
-  gap: 25px;
+  gap: 20px;
 }
 
 /* CAIXAS */
 .box {
-  background: #111827; /* leve azul escuro */
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.2); /* contorno branco suave */
-  transition: 0.3s;
+  background-color: #131a2a;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
 }
 
+/* HOVER */
 .box:hover {
-  transform: translateY(-4px);
-  border: 1px solid rgba(255,255,255,0.35);
+  transform: translateY(-5px);
+  border-color: rgba(255,255,255,0.4);
 }
 
 /* TAMANHO DAS GRANDES */
 .big {
-  height: 170px;
+  min-height: 160px;
 }
 
 /* TÍTULOS */
