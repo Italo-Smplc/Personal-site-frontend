@@ -43,15 +43,13 @@ body {
   text-align: left;
 }
 
+/* HEADER: underline permanente */
 .top-header a {
   color: #ccc;
   margin-right: 20px;
-  text-decoration: none;
+  text-decoration: underline; /* agora sempre underline */
   font-size: 14px;
-  border-bottom: 1px solid transparent;
-  transition: 0.3s;
 }
-
 .top-header a:hover {
   color: #fff;
   border-bottom: 1px solid #ccc; /* underline ao passar */
@@ -99,11 +97,11 @@ body {
   border: 2px solid #fff;
 }
 
-/* COLORS SUAVES E CORRIGIDAS */
-.name { background-color: #aac8f7; }      /* primeira agora azul suave (trocada com third) */
-.education { background-color: #e3b4e1; } /* rosa suave */
-.about { background-color: #c7b2f7; }     /* terceira agora rosa-lilás suave (trocada com first) */
-.skills { background-color: #d0b0f7; }    /* roxo suave */
+/* CORES VIBRANTES NOS TÍTULOS */
+.name { background-color: #ec4899; }      /* rosa vibrante */
+.education { background-color: #9333ea; } /* roxo vibrante */
+.about { background-color: #2563eb; }     /* azul vibrante */
+.skills { background-color: #7c3aed; }    /* roxo-azulado vibrante */
 
 /* TEXT */
 p {
