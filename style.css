@@ -1,69 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
+/* FUNDO */
 body {
-  background: #0d0d0d;
-  color: #fff;
+  background: #0b0f1a; /* preto com leve azul */
+  color: #eaeaea;
+  font-family: 'Playfair Display', serif;
 }
 
-/* MENU */
+/* NAVBAR */
 header {
-  background: #111;
-  padding: 15px;
+  background: #0f1422;
+  padding: 20px;
   text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 nav a {
-  color: #aaa;
-  margin: 0 15px;
+  color: #cfcfcf;
+  margin: 0 20px;
   text-decoration: none;
+  font-size: 18px;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 /* CONTAINER */
 .container {
-  padding: 40px;
+  padding: 50px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
-/* GRID TOP (2 lado a lado) */
+/* GRID */
 .grid-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 25px;
 }
 
-/* GRID BOTTOM (2 grandes empilhados) */
 .grid-bottom {
-  margin-top: 20px;
+  margin-top: 25px;
   display: grid;
-  gap: 20px;
+  gap: 25px;
 }
 
 /* CAIXAS */
 .box {
-  background: #1a1a1a;
-  padding: 25px;
-  border-radius: 10px;
+  background: #111827; /* leve azul escuro */
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2); /* contorno branco suave */
   transition: 0.3s;
 }
 
 .box:hover {
-  transform: translateY(-5px);
-  background: #222;
+  transform: translateY(-4px);
+  border: 1px solid rgba(255,255,255,0.35);
 }
 
+/* TAMANHO DAS GRANDES */
 .big {
-  height: 150px;
+  height: 170px;
+}
+
+/* TÍTULOS */
+h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 /* RESPONSIVO */
