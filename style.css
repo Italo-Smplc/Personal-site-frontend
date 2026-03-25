@@ -1,4 +1,4 @@
-/* Fonte elegante (fallback garantido) */
+/* Elegant academic font */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 * {
@@ -7,23 +7,23 @@
   box-sizing: border-box;
 }
 
-/* FUNDO */
+/* BACKGROUND */
 body {
-  background-color: #0c111b; /* preto com leve azul */
-  color: #e6e6e6;
+  background-color: #080a0f; /* mais preto, leve azul */
+  color: #eaeaea;
   font-family: 'Playfair Display', Georgia, serif;
 }
 
 /* NAVBAR */
 header {
-  background-color: #111827;
+  background-color: #0d1017;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 2px solid rgba(255,255,255,0.4);
 }
 
 nav a {
-  color: #cfcfcf;
+  color: #dcdcdc;
   margin: 0 20px;
   text-decoration: none;
   font-size: 18px;
@@ -41,47 +41,55 @@ nav a:hover {
   margin: auto;
 }
 
-/* GRID SUPERIOR */
+/* GRID TOP */
 .grid-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-/* GRID INFERIOR */
+/* GRID BOTTOM */
 .grid-bottom {
   margin-top: 20px;
   display: grid;
   gap: 20px;
 }
 
-/* CAIXAS */
+/* BOXES */
 .box {
-  background-color: #131a2a;
+  background-color: #0f1218;
   padding: 25px;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.2);
-  transition: all 0.3s ease;
+  border-radius: 0; /* quinas retas */
+  border: 2px solid rgba(255,255,255,0.6); /* mais grosso e branco */
+  transition: 0.3s;
 }
 
 /* HOVER */
 .box:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-4px);
+  border-color: #ffffff;
 }
 
-/* TAMANHO DAS GRANDES */
+/* BIG BOX */
 .big {
   min-height: 160px;
 }
 
-/* TÍTULOS */
+/* TITLES */
 h2 {
   margin-bottom: 10px;
   font-weight: 600;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #888; /* linha separadora */
 }
 
-/* RESPONSIVO */
+/* TEXT */
+p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* RESPONSIVE */
 @media (max-width: 700px) {
   .grid-top {
     grid-template-columns: 1fr;
