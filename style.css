@@ -95,3 +95,43 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* HEADER ALINHADO À ESQUERDA */
+.top-header {
+  margin-bottom: 30px;
+}
+
+.top-header nav {
+  text-align: left;
+}
+
+.top-header a {
+  margin-right: 20px;
+}
+
+/* CORES DOS TÍTULOS */
+.title.name {
+  color: #4da6ff;
+}
+
+.title.education {
+  color: #7aa2ff;
+}
+
+.title.about {
+  color: #9bbcff;
+}
+
+.title.skills {
+  color: #c2d4ff;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #666;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
