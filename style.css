@@ -26,15 +26,15 @@ body {
 
 /* NOME GRANDE */
 .site-title {
-  font-size: 40px;
+  font-size: 80px; /* aumentado */
   margin-bottom: 10px;
+  font-weight: bold;
+  color: #eaeaea;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #888; /* linha cinza abaixo do nome */
 }
 
-/* HEADER SIMPLES */
-.top-header {
-  margin-bottom: 25px;
-}
-
+/* HEADER */
 .top-header nav {
   text-align: left;
 }
@@ -44,10 +44,13 @@ body {
   margin-right: 15px;
   text-decoration: none;
   font-size: 14px;
+  border-bottom: 1px solid transparent; /* underline inicial invisível */
+  transition: 0.3s;
 }
 
 .top-header a:hover {
   color: #fff;
+  border-bottom: 1px solid #ccc; /* underline ao passar */
 }
 
 /* GRID */
@@ -80,21 +83,21 @@ body {
   color: #fff;
 }
 
-/* CORES DISTINTAS (AGORA CORRIGIDO) */
+/* CORES DOS TÍTULOS SUAVIZADAS */
 .name {
-  background-color: #2563eb; /* azul forte */
+  background-color: #c7b2f7; /* suave rosa-lilás (agora terceira cor) */
 }
 
 .education {
-  background-color: #9333ea; /* roxo */
+  background-color: #e3b4e1; /* suave rosa */
 }
 
 .about {
-  background-color: #ec4899; /* rosa */
+  background-color: #aac8f7; /* suave azul (agora primeira cor) */
 }
 
 .skills {
-  background-color: #7c3aed; /* roxo diferente (não azul) */
+  background-color: #d0b0f7; /* suave roxo */
 }
 
 /* TEXTO */
