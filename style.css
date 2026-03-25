@@ -1,4 +1,4 @@
-/* Fonte personalizada (Termina se disponível) */
+/* Fonte Termina */
 @font-face {
   font-family: 'Termina';
   src: url('Termina.woff2') format('woff2');
@@ -10,9 +10,9 @@
   box-sizing: border-box;
 }
 
-/* BACKGROUND */
+/* BODY */
 body {
-  background-color: #080a0f;
+  background-color: #080a0f; /* quase preto */
   color: #eaeaea;
   font-family: 'Termina', Arial, sans-serif;
 }
@@ -24,27 +24,31 @@ body {
   margin: auto;
 }
 
-/* NOME GRANDE */
+/* SITE TITLE */
 .site-title {
-  font-size: 80px; /* aumentado */
-  margin-bottom: 10px;
+  font-size: 80px;
   font-weight: bold;
   color: #eaeaea;
+  margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #888; /* linha cinza abaixo do nome */
+  border-bottom: 1px solid #888; /* linha cinza */
 }
 
 /* HEADER */
+.top-header {
+  margin-bottom: 25px;
+}
+
 .top-header nav {
   text-align: left;
 }
 
 .top-header a {
   color: #ccc;
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
   font-size: 14px;
-  border-bottom: 1px solid transparent; /* underline inicial invisível */
+  border-bottom: 1px solid transparent;
   transition: 0.3s;
 }
 
@@ -70,58 +74,52 @@ body {
 .box {
   background-color: #0f1218;
   padding: 25px;
+  border-radius: 0; /* quinas retas */
   border: 2px solid rgba(255,255,255,0.6);
 }
 
-/* TITULOS COM RETANGULO */
+/* HOVER */
+.box:hover {
+  transform: translateY(-4px);
+  border-color: #fff;
+}
+
+/* BIG BOX */
+.big {
+  min-height: 160px;
+}
+
+/* TITLES WITH RECTANGLES */
 .title {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 10px;
-  border: 2px solid #ffffff;
   font-weight: bold;
   color: #fff;
+  border: 2px solid #fff;
 }
 
-/* CORES DOS TÍTULOS SUAVIZADAS */
-.name {
-  background-color: #c7b2f7; /* suave rosa-lilás (agora terceira cor) */
-}
+/* COLORS SUAVES E CORRIGIDAS */
+.name { background-color: #aac8f7; }      /* primeira agora azul suave (trocada com third) */
+.education { background-color: #e3b4e1; } /* rosa suave */
+.about { background-color: #c7b2f7; }     /* terceira agora rosa-lilás suave (trocada com first) */
+.skills { background-color: #d0b0f7; }    /* roxo suave */
 
-.education {
-  background-color: #e3b4e1; /* suave rosa */
-}
-
-.about {
-  background-color: #aac8f7; /* suave azul (agora primeira cor) */
-}
-
-.skills {
-  background-color: #d0b0f7; /* suave roxo */
-}
-
-/* TEXTO */
+/* TEXT */
 p {
   margin-top: 10px;
   line-height: 1.5;
 }
 
-/* BIG */
-.big {
-  min-height: 160px;
-}
-
 /* FOOTER */
-footer {
+footer p {
+  text-align: left;
   margin-top: 40px;
-  padding-top: 15px;
-  border-top: 1px solid #666;
-  text-align: center;
   font-size: 13px;
   color: #aaa;
 }
 
-/* RESPONSIVO */
+/* RESPONSIVE */
 @media (max-width: 700px) {
   .grid-top {
     grid-template-columns: 1fr;
