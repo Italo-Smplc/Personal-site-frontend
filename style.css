@@ -75,17 +75,18 @@ body {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 10px;
-  border: 2px solid #ffffff; /* contorno externo */
+  border: 2px solid #ffffff;
   font-weight: bold;
+  color: #fff;
 }
 
-/* CORES */
+/* CORES DISTINTAS (AGORA CORRIGIDO) */
 .name {
-  background-color: #3b82f6; /* azul */
+  background-color: #2563eb; /* azul forte */
 }
 
 .education {
-  background-color: #a855f7; /* roxo */
+  background-color: #9333ea; /* roxo */
 }
 
 .about {
@@ -93,7 +94,7 @@ body {
 }
 
 .skills {
-  background-color: #6366f1; /* azul-roxo */
+  background-color: #7c3aed; /* roxo diferente (não azul) */
 }
 
 /* TEXTO */
