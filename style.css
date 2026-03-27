@@ -67,7 +67,7 @@ body {
 /* BOXES */
 .box {
   background-color: #0f1218;
-  padding: 25px;
+  padding: 12px;
   border: 2px solid #fff;
   border-radius: 0; /* quinas retas */
   transition: 0.3s;
@@ -94,10 +94,10 @@ body {
 }
 
 /* CORES VIBRANTES */
-.name { background-color: #ec4899; }      /* rosa vibrante */
-.education { background-color: #9333ea; } /* roxo vibrante */
-.about { background-color: #2563eb; }     /* azul vibrante */
-.skills { background-color: #7c3aed; }    /* roxo-azulado vibrante */
+.name { background-color: #F4A8D7; }      /* rosa vibrante */
+.education { background-color: #CBA6F7; } /* roxo vibrante */
+.about { background-color: #9FD7D0; }     /* azul vibrante */
+.skills { background-color: #5F5174; }    /* roxo-azulado vibrante */
 
 /* TEXTOS */
 p {
