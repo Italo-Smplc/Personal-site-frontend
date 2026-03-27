@@ -68,7 +68,7 @@ body {
 .box {
   background-color: #0f1218;
   padding: 12px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 0; /* quinas retas */
   transition: 0.3s;
 }
